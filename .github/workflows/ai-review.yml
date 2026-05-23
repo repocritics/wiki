@@ -1,0 +1,25 @@
+name: AI Review (Layer 1)
+
+# Phase 1I scaffold — actual logic implementation pending.
+# Will dispatch PR content to Sonnet via repocritics/repocritics backend.
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - 'wiki/**'
+
+jobs:
+  ai-review:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      contents: read
+    steps:
+      - name: Checkout PR
+        uses: actions/checkout@v4
+
+      - name: Placeholder — AI review pending
+        run: |
+          echo "AI review logic pending — see clawsouls-internal/docs/repocritics/ARCHITECTURE.md Section 6.2"
+          echo "Will integrate with repocritics/repocritics backend in Phase 1I"
