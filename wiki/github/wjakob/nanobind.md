@@ -4,7 +4,8 @@
 
 [GitHub repo](https://github.com/wjakob/nanobind) ·
 [Documentation](https://nanobind.readthedocs.io/en/latest/) ·
-[License: BSD-3-Clause](https://github.com/wjakob/nanobind/blob/master/LICENSE)
+[License: BSD-3-Clause](https://github.com/wjakob/nanobind/blob/master/LICENSE) ·
+[PyPI](https://pypi.org/project/nanobind/)
 
 ## Overview
 
